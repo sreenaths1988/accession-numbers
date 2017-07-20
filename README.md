@@ -14,7 +14,21 @@ A00000, A0001, ABCDEFG1, DRR2110012, ERR000111-ERR000113, ERR000115-ERR000116, E
 
 The application can be used in 3 ways
 
-* 
+* Command Line
+
+  /> java -jar <path to jar> <args>
+
+      args: Accession numbers separated with comma. Enclose in double quotes if there are spaces
+      
+  For eg: java -jar accessionnumbers-0.0.1-SNAPSHOT.jar "A00000, A0001, A0001, ERR000111, ERR000112"
+ 
+ * Web interface
+ 
+  Open <project folder>/src/main/webapp/index.html and provide input in text area and click Submit button
+  
+  * REST API
+  
+  Pass data as plain/text in a REST API client to http://localhost:8080/root/accessionnumber
 
 
 ## Getting Started
