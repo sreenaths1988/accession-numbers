@@ -18,7 +18,7 @@ The application can be used in 3 ways
 
 * Command Line
 
-  	 *java -jar <path to jar> <args>*
+  	 *java -jar path-to-jar args*
 
 	 args: Accession numbers separated with comma. Enclose in double quotes if there are spaces
       
@@ -26,12 +26,12 @@ The application can be used in 3 ways
  
  * Web interface
  	
- 	In a command prompt, run *java jar <path to jar>* 
+ 	In a command prompt, run *java jar path-to-jar* 
   	Open <project folder>/src/main/webapp/index.html and provide input in text area and click Submit button
   
  * REST API
  
-  	In a command prompt, run *java jar <path to jar>*
+  	In a command prompt, run *java jar path-to-jar*
   	Pass data as plain/text in a REST API client to http://localhost:8080/root/accessionnumber
 
 
@@ -54,10 +54,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Built With
 
-* [Eclipse] - IDE
-* [Maven] - Dependency Management
-* [Jetty] - Embedded Server
-* [Jersey] - REST API implementation
+* [Eclipse] (https://eclipse.org/ide/) - IDE
+* [Maven] (https://maven.apache.org/) - Dependency Management
+* [Jetty] (https://eclipse.org/jetty) - Embedded Server
+* [Jersey] (https://jersey.github.io/) - REST API implementation
 
 
 
