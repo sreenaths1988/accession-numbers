@@ -10,25 +10,29 @@ A00000, A0001, ERR000111, ERR000112, ERR000113, ERR000115, ERR000116, ERR100114,
 Expected output:
 A00000, A0001, ABCDEFG1, DRR2110012, ERR000111-ERR000113, ERR000115-ERR000116, ERR100114, ERR200000001-ERR200000003, SRR211001 
 
+The application is build to respond to user requests through command line, web interface and REST API call. There is no need of an application server to run this application as it comes with an embedded Jetty server. Jersey is used to implement REST API feature.
+
 ## Usage
 
 The application can be used in 3 ways
 
 * Command Line
 
-  /> java -jar <path to jar> <args>
+  	 *java -jar <path to jar> <args>*
 
-      args: Accession numbers separated with comma. Enclose in double quotes if there are spaces
+	 args: Accession numbers separated with comma. Enclose in double quotes if there are spaces
       
-  For eg: java -jar accessionnumbers-0.0.1-SNAPSHOT.jar "A00000, A0001, A0001, ERR000111, ERR000112"
+  	 For eg: java -jar accessionnumbers-0.0.1-SNAPSHOT.jar "A00000, A0001, A0001, ERR000111, ERR000112"
  
  * Web interface
+ 	
+ 	In a command prompt, run *java jar <path to jar>* 
+  	Open <project folder>/src/main/webapp/index.html and provide input in text area and click Submit button
+  
+ * REST API
  
-  Open <project folder>/src/main/webapp/index.html and provide input in text area and click Submit button
-  
-  * REST API
-  
-  Pass data as plain/text in a REST API client to http://localhost:8080/root/accessionnumber
+  	In a command prompt, run *java jar <path to jar>*
+  	Pass data as plain/text in a REST API client to http://localhost:8080/root/accessionnumber
 
 
 ## Getting Started
@@ -42,9 +46,18 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-* Unpack the project zip file and place it in any folder of preference
-* In command prompt, run mnv clean install
+* Unpack the project zip file and place it in any directory of preference
+* In command prompt, run *mvn clean install*
+* If build is successful, jar will be created in target directory
+* Refer to Usage part to run this application
 
+
+## Built With
+
+* [Eclipse] - IDE
+* [Maven] - Dependency Management
+* [Jetty] - Embedded Server
+* [Jersey] - REST API implementation
 
 
 
