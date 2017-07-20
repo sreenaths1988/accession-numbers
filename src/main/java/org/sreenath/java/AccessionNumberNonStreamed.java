@@ -1,4 +1,4 @@
-package org.sreenath.java.accessionnumbers;
+package org.sreenath.java;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,7 +8,7 @@ import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class AccessionNumber {
+public class AccessionNumberNonStreamed {
 
 	public static List<String> getOrderedList(String inputArgs) {
 		

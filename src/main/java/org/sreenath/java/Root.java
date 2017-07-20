@@ -10,6 +10,10 @@ import javax.ws.rs.core.MediaType;
 @Path("/root")
 public class Root {
 	
+	/*
+	 * Invoked while using web interface
+	 */
+	
 	@POST
 	@Path("/accessionnumber")
 	@Produces(MediaType.TEXT_HTML)
@@ -27,6 +31,10 @@ public class Root {
 		return results.toString();
 		
 	}
+	
+	/*
+	 * Invoked during REST API call
+	 */
 	
 	@POST
 	@Path("/accessionnumber")

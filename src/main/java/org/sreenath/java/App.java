@@ -5,10 +5,9 @@ import java.util.List;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
-import org.sreenath.java.accessionnumbers.AccessionNumber;
 
 /**
- * App
+ * App class - Contains main method which takes care of command line requests and starts embedded server
  *	
  */
 public class App
