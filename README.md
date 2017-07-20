@@ -27,7 +27,7 @@ The application can be used in 3 ways
  * Web interface
  	
  	In a command prompt, run *java jar path-to-jar* 
-  	Open <project folder>/src/main/webapp/index.html and provide input in text area and click Submit button
+  	Open *project-folder/src/main/webapp/index.html* and provide input in text area and click Submit button
   
  * REST API
  
@@ -54,10 +54,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Built With
 
-* [Eclipse] (https://eclipse.org/ide/) - IDE
-* [Maven] (https://maven.apache.org/) - Dependency Management
-* [Jetty] (https://eclipse.org/jetty) - Embedded Server
-* [Jersey] (https://jersey.github.io/) - REST API implementation
+* [Eclipse](https://eclipse.org/ide/) - IDE
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [Jetty](https://eclipse.org/jetty) - Embedded Server
+* [Jersey](https://jersey.github.io/) - REST API implementation
 
 
 
