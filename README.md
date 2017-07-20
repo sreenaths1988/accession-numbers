@@ -10,6 +10,27 @@ A00000, A0001, ERR000111, ERR000112, ERR000113, ERR000115, ERR000116, ERR100114,
 Expected output:
 A00000, A0001, ABCDEFG1, DRR2110012, ERR000111-ERR000113, ERR000115-ERR000116, ERR100114, ERR200000001-ERR200000003, SRR211001 
 
+## Usage
 
-# Getting Started
+The application can be used in 3 ways
+
+* 
+
+
+## Getting Started
 These instructions will get you a copy of the project up and running on your local machine
+
+
+### Prerequisites
+
+* Java 8 JDK installed
+* Maven installed
+
+### Installing
+
+* Unpack the project zip file and place it in any folder of preference
+* In command prompt, run mnv clean install
+
+
+
+
