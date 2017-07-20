@@ -48,6 +48,7 @@ public class App
     	} else {
     		
     		String resultString = String.join(",", AccessionNumber.getOrderedList(args[0]));
+    		System.out.println("Results");
         	System.out.println(resultString);
         	
     	}	
